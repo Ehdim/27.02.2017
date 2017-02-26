@@ -1,0 +1,64 @@
+html,body{
+    margin: 0px;
+}
+.main{
+    width: 100%;
+    height: 800px;
+    background-image: url(../img/image.jpg);
+    background-size: cover;
+}
+.rain1{
+	display: inline-block;
+	display: flex;
+	justify-content: space-between;
+}
+.rain1 img{
+	 width: 40px;
+    height: 50px;
+    position: relative;
+    animation: damci 1s infinite;
+
+
+}
+@keyframes damci {
+    from {top: 0px;}
+    to {top: 700px;}
+}
+.rain2{
+	display:inline-block;
+	display: flex;
+	justify-content: space-around;
+}
+.rain2 img{
+	width: 30px;
+	height: 40px;
+	border-radius: 100%;
+	position: relative;
+	animation: damci 1.4s infinite ease ;
+}
+.rain3{
+	display:inline-block;
+	display: flex;
+
+}
+.rain3 img{
+	width: 40px;
+	height: 50px;
+	border-radius: 100%;
+	margin:7px 60px 0 60px;
+	position: relative;
+	animation: damci 1.7s infinite ease;
+}
+.rain4{
+	display:inline-block;
+	display: flex;
+
+}
+.rain4 img{
+	width: 40px;
+	height: 50px;
+	border-radius: 100%;
+	margin:15px 75px 0 75px;
+	position: relative;
+	animation: damci 2s infinite ease;
+}
